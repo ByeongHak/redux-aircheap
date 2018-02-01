@@ -1,0 +1,42 @@
+{
+  "name": "redux-aircheap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/.bin/webpack-dev-server --progress",
+    "build": "node_modules/.bin/webpack -p --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ByeongHak/redux-aircheap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ByeongHak/redux-aircheap/issues"
+  },
+  "homepage": "https://github.com/ByeongHak/redux-aircheap#readme",
+  "description": "",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "prop-types": "^15.6.0",
+    "react": "^15.0.2",
+    "react-addons-update": "^15.6.2",
+    "react-autosuggest-legacy": "^2.2.6",
+    "react-dom": "^15.0.2",
+    "react-redux": "^5.0.6",
+    "react-select": "^1.2.1",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "whatwg-fetch": "^2.0.3"
+  }
+}
